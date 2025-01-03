@@ -1,4 +1,14 @@
+# NextJS Experiment 1 Website
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Selected Features for this Project 
+* TypeScript used? - No
+* ESLint used? - Yes
+* Tailwind CSS? - No 
+* Code inside src directory? - Yes
+* App Router used? - Yes 
+* Turbopack for 'next dev' used? - No 
 
 ## Getting Started
 
