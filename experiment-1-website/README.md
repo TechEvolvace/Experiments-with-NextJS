@@ -10,6 +10,15 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 * App Router used? - Yes 
 * Turbopack for 'next dev' used? - No 
 
+## Installation Instructions Used to Setup the First NextJS Project 
+
+1) Install the create-next-app package version 15.1.3 using and create a new NextJS project with the command: 
+```bash
+    npx create-next-app@latest
+```
+
+2) Answered the following prompts to include or exclude specific features
+
 ## Getting Started
 
 First, run the development server:
