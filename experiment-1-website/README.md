@@ -19,7 +19,27 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 2) Answered the following prompts to include or exclude specific features
 
-## Getting Started
+## My Findings 
+
+Apparently, the src/app/page.js is the landing page for the NextJS project! 
+
+### Root Directory 
+
+The `package.json` file contains project metadata, dependencies, and scripts which help me run the development server to see the final result of my changes to the NextJS project! 
+
+```bash
+npm run dev
+```
+
+The `next.config.mjs` is the Configuration file for Next.js and is used to customize build behavior and add environment variables! 
+
+The `.eslintrc.json` is the ESLint Configuration file
+* Defines coding style rules and detects potential errors 
+
+The `.gitignore` specifies fiels and directories Git should ignore
+* Commonly used to ignore the next_modules directory to prevent GitHub repo from taking up too much memory because of how many packages are in the next_modules directory
+
+## Getting Started (Provided NextJS instructions )
 
 First, run the development server:
 

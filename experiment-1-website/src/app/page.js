@@ -1,3 +1,7 @@
+/* 
+  This is the landing page component! 
+*/
+
 import Image from "next/image";
 import styles from "./page.module.css";
 
@@ -5,6 +9,17 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
+
+        <h1>NextJS Experiment 1</h1>
+
+        <p>This first NextJS experiment is created to identify 
+          the files from the starter code files provided by NodeJS that is needed to run a NodeJS project. 
+        </p>
+
+        <h2>Findings</h2>
+        <p>It appears that NextJS follows the Components architecture and styling similar to React&apos;s Components!</p>
+        <p>The components in NextJS are still exported as modules similar to with React</p>
+
         <Image
           className={styles.logo}
           src="/next.svg"
