@@ -23,6 +23,14 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 Apparently, the src/app/page.js is the landing page for the NextJS project! 
 
+It appears that NextJS follows the Components architecture and styling similar to React's Components!
+
+The components in NextJS are still exported as modules similar to with React
+
+The `page.modules.css` file is responsible for styling this landing page's appearance!</p>
+
+The application of the class selectors from the page.modules.css file on the NextJS components is the same method of applying class selectors with CSS Modules files on React components! 
+
 ### Root Directory 
 
 The `package.json` file contains project metadata, dependencies, and scripts which help me run the development server to see the final result of my changes to the NextJS project! 
@@ -39,7 +47,7 @@ The `.eslintrc.json` is the ESLint Configuration file
 The `.gitignore` specifies fiels and directories Git should ignore
 * Commonly used to ignore the next_modules directory to prevent GitHub repo from taking up too much memory because of how many packages are in the next_modules directory
 
-## Getting Started (Provided NextJS instructions )
+## Getting Started (Provided NextJS instructions)
 
 First, run the development server:
 
