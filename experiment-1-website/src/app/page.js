@@ -33,6 +33,10 @@ export default function Home() {
           <li>Icon of a globe (which is an image) for the Go to nextjs.org → hyperlink</li>
         </ul>
 
+        <h1>The following below is the given components that NextJS created as a result of the starter code
+          provided
+        </h1>
+
         <Image
           className={styles.logo}
           src="/next.svg"
