@@ -1,3 +1,13 @@
+/* 
+  This is the CSS module file that controls the appearance of 
+  the landing page for this NextJS project! 
+*/  
+
+/* 
+  This controls the page component's appearance, which is used 
+  in the landing page (Home Page = Home Component) of the NextJS 
+  project!
+*/
 .page {
   --gray-rgb: 0, 0, 0;
   --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
@@ -16,6 +26,10 @@
   font-family: var(--font-geist-sans);
 }
 
+/* 
+  This designs the page component's dark
+  color scheme appearance! 
+*/
 @media (prefers-color-scheme: dark) {
   .page {
     --gray-rgb: 255, 255, 255;
@@ -27,6 +41,11 @@
   }
 }
 
+/* 
+  This controls the appearance of the main body 
+  for the page component (currently used in 
+  the landing page)!
+*/
 .main {
   display: flex;
   flex-direction: column;
@@ -34,6 +53,10 @@
   grid-row-start: 2;
 }
 
+/* 
+  This controls the appearance of the ordered
+  lists in the main body of the page component! 
+*/
 .main ol {
   font-family: var(--font-geist-mono);
   padding-left: 0;
@@ -48,6 +71,10 @@
   margin-bottom: 8px;
 }
 
+/* 
+  This designs the appearance of code blocks 
+  displayed in the main section of the page component!
+*/
 .main code {
   font-family: inherit;
   background: var(--gray-alpha-100);
@@ -81,23 +108,39 @@
   font-weight: 500;
 }
 
+/* 
+  This controls the appearance of the 
+  primary links in the page component!
+*/
 a.primary {
   background: var(--foreground);
   color: var(--background);
   gap: 8px;
 }
 
+/* 
+  This controls the appearance of the 
+  secondary links in the page component!
+*/
 a.secondary {
   border-color: var(--gray-alpha-200);
   min-width: 180px;
 }
 
+/* 
+  This controls the appearance of the 
+  footer in the page component!
+*/
 .footer {
   grid-row-start: 3;
   display: flex;
   gap: 24px;
 }
 
+/* 
+  This controls the appearance of the 
+  links in footer of the page component!
+*/
 .footer a {
   display: flex;
   align-items: center;
@@ -126,6 +169,10 @@ a.secondary {
   }
 }
 
+/* 
+  Responsive design for small devices 
+  and for small browser widths!
+*/
 @media (max-width: 600px) {
   .page {
     padding: 32px;
