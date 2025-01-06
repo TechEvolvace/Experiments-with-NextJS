@@ -1,5 +1,7 @@
 # NextJS Experiment 1 Website
 
+This is the first NextJS experiment I developed. I analyzed the starter code provided by NextJS when creating a NextJS project, so I can understand exactly what each file and component does for the NextJS project!
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Selected Features for this Project 
@@ -18,6 +20,19 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ```
 
 2) Answered the following prompts to include or exclude specific features
+* TypeScript used? `No`
+* ESLint used? `Yes`
+* Tailwind CSS used? `No`
+* Place code inside the src/ directory? `Yes`
+* App Router used? `Yes`
+* Turbopack for `next dev` used? `No`
+
+3) Run the command below to run the NextJS project: 
+```bash
+    npm run dev
+```
+
+4) Click the Local URL to see the NextJS project's front-end side!
 
 ## My Findings 
 
