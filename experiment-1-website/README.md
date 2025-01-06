@@ -1,5 +1,7 @@
 # NextJS Experiment 1 Website
 
+This is the first NextJS experiment I developed. I analyzed the starter code provided by NextJS when creating a NextJS project, so I can understand exactly what each file and component does for the NextJS project!
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Selected Features for this Project 
