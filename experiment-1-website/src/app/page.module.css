@@ -57,6 +57,10 @@
   border-radius: 25px;
 }
 
+.pageTitle{
+  text-align: center;
+}
+
 /* 
   This controls the appearance of the ordered
   lists in the main body of the page component! 
