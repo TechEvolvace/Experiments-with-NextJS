@@ -83,6 +83,10 @@
   font-weight: 600;
 }
 
+/* 
+  Design the appearance of the container including the 
+  "Deploy now" and "Read our docs" button!
+*/
 .ctas {
   display: flex;
   gap: 16px;
@@ -110,7 +114,7 @@
 
 /* 
   This controls the appearance of the 
-  primary links in the page component!
+  "Deploy now" button!
 */
 a.primary {
   background: var(--foreground);
@@ -120,7 +124,7 @@ a.primary {
 
 /* 
   This controls the appearance of the 
-  secondary links in the page component!
+  "Read our docs" button!
 */
 a.secondary {
   border-color: var(--gray-alpha-200);
@@ -153,16 +157,23 @@ a.secondary {
 
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
+
+  /* For the "Deploy now" button */
   a.primary:hover {
     background: var(--button-primary-hover);
     border-color: transparent;
   }
 
+  /* For the "Read our docs" button */
   a.secondary:hover {
     background: var(--button-secondary-hover);
     border-color: transparent;
   }
 
+  /*
+    For the Learn, Examples, and Go to nextjs.org 
+    links in the footer! 
+  */
   .footer a:hover {
     text-decoration: underline;
     text-underline-offset: 4px;
@@ -187,6 +198,10 @@ a.secondary {
     text-align: center;
   }
 
+  /*
+    Design a small container for the 2 buttons 
+    "Deploy now" and "Read our docs"
+  */
   .ctas {
     flex-direction: column;
   }
@@ -197,6 +212,9 @@ a.secondary {
     padding: 0 16px;
   }
 
+  /* 
+
+  */
   a.secondary {
     min-width: auto;
   }
