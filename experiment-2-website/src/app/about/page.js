@@ -15,8 +15,10 @@ export default function About() {
 
           <br></br>
           <p>
-            In order to see the new application, just change the current browser URL 
-            from localhost:3000 to localhost:3000/about and press Enter to load the webpage!
+            Right now, there are no navigation links or other UI elements to help intuitively 
+            navigate this new website. In order to see the new application, just change the 
+            current browser URL from localhost:3000 to localhost:3000/about and press Enter 
+            to load the webpage!
           </p>
       </div>
     );
