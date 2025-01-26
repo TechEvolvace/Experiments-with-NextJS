@@ -5,5 +5,14 @@
 .main{
     background-color: white;
     color: black;
+    padding: 1em 4em;
+}
+
+.main h1{
+    font-size: 200%;
+}
+
+.main p{
+    font-size: 125%;
 }
   
