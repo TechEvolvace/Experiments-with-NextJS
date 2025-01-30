@@ -1,9 +1,9 @@
-import styles from "./about.module.css";
+import "./about.css";
 
 export default function About() {
     return (
-      <div className={styles.page}>
-        <main className={styles.main}>
+      <div className="page">
+        <div className="content">
           <h1>About page for NextJS Experiment 2 Website!</h1>
 
           <p>This NextJS Experiment 2 will be a multi-page application written by NextJS!
@@ -19,8 +19,7 @@ export default function About() {
             current browser URL from localhost:3000 to localhost:3000/about and press Enter 
             to load the webpage!
           </p>
-        </main>
-        
-      </div>
-    );
+        </div>
+    </div>
+  );
 }
