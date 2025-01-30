@@ -1,0 +1,43 @@
+/* Add this to your global CSS or about.css */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.page {
+    background-image: linear-gradient(#77e2ff, 75%, #EF5200);
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.content{
+    background: white;
+    margin: 2em; 
+    padding: 1% 2%;
+    border-radius: 20px;
+}
+
+.content h1{
+    font-size: 3em;
+}
+
+.content h2{
+    font-size: 2em;
+}
+
+.content p{
+    font-size: 1.5em;
+}
+  
+  
+
+
+  
