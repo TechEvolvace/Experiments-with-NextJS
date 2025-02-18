@@ -1,7 +1,27 @@
+.navbar {
+    background-color: rgb(11, 21, 167);
+    box-sizing: content-box;
+}
+
 nav > ul{
     list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav > ul > li{
+    margin: 1em;
 }
 
 .navLinks{
     text-decoration: none;
+    background-color: rgb(2, 29, 164);
+    color: whitesmoke;
+    font-size: 2em;
+    padding: 1em 1em;
+    border-radius: 25px;
+}
+
+.navLinks:hover{
+    background-color: rgb(52, 117, 228);
 }
