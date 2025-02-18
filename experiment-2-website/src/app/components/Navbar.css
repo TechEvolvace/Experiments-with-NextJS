@@ -19,6 +19,7 @@ nav > ul > li{
     color: whitesmoke;
     font-size: 2em;
     padding: 1em 1em;
+    border-radius: 25px;
 }
 
 .navLinks:hover{
