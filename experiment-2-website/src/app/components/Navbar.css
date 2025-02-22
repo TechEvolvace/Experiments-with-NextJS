@@ -1,18 +1,25 @@
+/* 
+    This controls the appearance of the navbar for 
+    NextJS Experiment 2's website!
+*/
 .navbar {
     background-color: rgb(11, 21, 167);
     box-sizing: content-box;
 }
 
+/* Controls arrangment of the navigation buttons! */
 nav > ul{
     list-style-type: none;
     display: flex;
     justify-content: center;
 }
 
+/* Controls spacing between navigation buttons! */
 nav > ul > li{
     margin: 1em;
 }
 
+/* Controls appearance of the navigation buttons! */
 .navLinks{
     text-decoration: none;
     background-color: rgb(2, 29, 164);
@@ -22,6 +29,7 @@ nav > ul > li{
     border-radius: 25px;
 }
 
+/* Hover functionality for navigation buttons! */
 .navLinks:hover{
     background-color: rgb(52, 117, 228);
 }

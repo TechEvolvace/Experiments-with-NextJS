@@ -5,19 +5,27 @@ html, body {
     height: 100%;
 }
 
+/* 
+    Controls how the content are arranged in the About page
+    including the navbar. 
+*/
 .page {
     background-image: linear-gradient(#77e2ff, 75%, #EF5200);
     min-height: 100vh;
     width: 100%;
     margin: 0;
     padding: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    display: flex;
+    flex-direction: column;
 }
 
+.page > *:first-child {
+    z-index: 10;
+}
+
+/* 
+    Clear background to visibly see text content of About page
+*/
 .content{
     background: white;
     margin: 2em; 
@@ -25,6 +33,10 @@ html, body {
     border-radius: 20px;
 }
 
+/* 
+    Setting responsive font size of the text content in About page,
+    so these text are easily readable
+*/
 .content h1{
     font-size: 3em;
 }
