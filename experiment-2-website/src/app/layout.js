@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import Navbar from './components/Navbar';
 import './components/Navbar.css';
+import './layout.css'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,7 +28,7 @@ export default function RootLayout({ children }) {
           which will not have the page styling affect the navbar! 
         */}
         <Navbar />
-        
+
         {/*
           This will be the page and its content that gets displayed!
         */}
